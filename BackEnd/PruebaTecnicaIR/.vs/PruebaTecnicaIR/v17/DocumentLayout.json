@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\logic\\subjectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:logic\\subjectlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\logic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:logic\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\logic\\classlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:logic\\classlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\logic\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:logic\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:controllers\\classcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|c:\\users\\usuario\\downloads\\backend\\pruebatecnicair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAFEE78-2A7A-4558-965E-874561652FCC}|PruebaTecnicaIR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "General.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\General.cs",
+              "RelativeDocumentMoniker": "Logic\\General.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\General.cs",
+              "RelativeToolTip": "Logic\\General.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:07:30.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\ClassLogic.cs",
+              "RelativeDocumentMoniker": "Logic\\ClassLogic.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\ClassLogic.cs",
+              "RelativeToolTip": "Logic\\ClassLogic.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowBMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T23:34:00.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "studentController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\studentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\studentController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\studentController.cs",
+              "RelativeToolTip": "Controllers\\studentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:55:35.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "Controllers\\SubjectController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowFkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:55:28.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\Student.cs",
+              "RelativeDocumentMoniker": "Logic\\Student.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\Student.cs",
+              "RelativeToolTip": "Logic\\Student.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T21:49:01.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubjectLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\SubjectLogic.cs",
+              "RelativeDocumentMoniker": "Logic\\SubjectLogic.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Logic\\SubjectLogic.cs",
+              "RelativeToolTip": "Logic\\SubjectLogic.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:55:35.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfessorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\ProfessorController.cs",
+              "RelativeToolTip": "Controllers\\ProfessorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:55:09.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\ClassController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClassController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Controllers\\ClassController.cs",
+              "RelativeToolTip": "Controllers\\ClassController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:49.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\BackEnd\\PruebaTecnicaIR\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:56:41.438Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  :host {
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+
+    --red-to-pink-to-purple-vertical-gradient: linear-gradient(180deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%);
+
+    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(90deg,
+        var(--orange-red) 0%,
+        var(--vivid-pink) 50%,
+        var(--electric-violet) 100%);
+
+    --pill-accent: var(--bright-blue);
+
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1 {
+    font-size: 3.125rem;
+    color: var(--gray-900);
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.125rem;
+    margin: 0;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+
+  p {
+    margin: 0;
+    color: var(--gray-700);
+  }
+
+  main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: inherit;
+    position: relative;
+  }
+
+  .angular-logo {
+    max-width: 9.2rem;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 3rem;
+  }
+
+  .content h1 {
+    margin-top: 1.75rem;
+  }
+
+  .content p {
+    margin-top: 1.5rem;
+  }
+
+  .divider {
+    width: 1px;
+    background: var(--red-to-pink-to-purple-vertical-gradient);
+    margin-inline: 0.5rem;
+  }
+
+  .pill-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+
+  .pill {
+    display: flex;
+    align-items: center;
+    --pill-accent: var(--bright-blue);
+    background: color-mix(in srgb, var(--pill-accent) 5%, transparent);
+    color: var(--pill-accent);
+    padding-inline: 0.75rem;
+    padding-block: 0.375rem;
+    border-radius: 2.75rem;
+    border: 0;
+    transition: background 0.3s ease;
+    font-family: var(--inter-font);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4rem;
+    letter-spacing: -0.00875rem;
+    text-decoration: none;
+  }
+
+  .instructions {
+    font-size: 0.875rem;
+    /* Tamaño más pequeño */
+    color: #555;
+    /* Color gris oscuro para el texto */
+  }
+
+  .pill:hover {
+    background: color-mix(in srgb, var(--pill-accent) 15%, transparent);
+  }
+
+  .pill-group .pill:nth-child(6n + 1) {
+    --pill-accent: var(--bright-blue);
+  }
+
+  .pill-group .pill:nth-child(6n + 2) {
+    --pill-accent: var(--french-violet);
+  }
+
+  .pill-group .pill:nth-child(6n + 3),
+  .pill-group .pill:nth-child(6n + 4),
+  .pill-group .pill:nth-child(6n + 5) {
+    --pill-accent: var(--hot-red);
+  }
+
+  .pill-group svg {
+    margin-inline-start: 0.25rem;
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    gap: 0.73rem;
+    margin-top: 1.5rem;
+  }
+
+  .social-links path {
+    transition: fill 0.3s ease;
+    fill: var(--gray-400);
+  }
+
+  .social-links a:hover svg path {
+    fill: var(--gray-900);
+  }
+
+  @media screen and (max-width: 650px) {
+    .content {
+      flex-direction: column;
+      width: max-content;
+    }
+
+    .divider {
+      height: 1px;
+      width: 100%;
+      background: var(--red-to-pink-to-purple-horizontal-gradient);
+      margin-block: 1.5rem;
+    }
+  }
+</style>
+
+<br>
+<br>
+<!-- Sección 1: Registro de Estudiante -->
+<div class="container">
+  <h2>Registro de Estudiante</h2>
+  <div class="instructions">
+    <p>1. <strong>Identificación</strong>: Ingresa el número de identificación o cédula del estudiante. Esto actualizará
+      automáticamente el nombre del estudiante.</p>
+    <p>2. <strong>Nombre del Estudiante</strong>: Al ingresar la identificación, el sistema cargará automáticamente el
+      nombre del estudiante.</p>
+    <p>3. <strong>Profesor y Materia</strong>: Selecciona el profesor, lo que hará que se muestren las materias
+      asignadas a ese profesor para su selección.</p>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-3">
+      <label for="firstName" class="form-label">Nombre</label>
+      <input type="text" id="firstName" class="form-control" name="firstName" required>
+    </div>
+
+    <div class="col-3">
+      <label for="lastName" class="form-label">Apellido</label>
+      <input type="text" id="lastName" class="form-control" name="lastName" required>
+    </div>
+
+    <div class="col-3">
+      <label for="identificationReg" class="form-label">Número de Identificación</label>
+      <input type="text" id="identificationReg" class="form-control" name="identificationNumber" required>
+    </div>
+
+    <div class="col-3">
+      <button type="button" class="btn btn-primary" style="margin-top: 30px;" (click)="CreateStud()">Guardar</button>
+    </div>
+  </div>
+  <br>
+  <div *ngIf="messageReg" class="alert" [ngClass]="alertClassReg" role="alert">
+    {{ messageReg }}
+  </div>
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<!-- Sección 2: Inscribir Materias -->
+<div class="container">
+  <h2>Inscribir Materias</h2>
+  <br>
+  <div class="instructions">
+    <p><strong>1. Campo "Identificación":</strong> Ingrese la cédula del estudiante o el número de identificación en
+      este campo. Al cambiar el valor, se cargará automáticamente el nombre del estudiante en el campo "Nombres del
+      Estudiante".</p>
+    <p><strong>2. Campo "Profesor":</strong> Seleccione el nombre del profesor en el campo correspondiente. Al elegir el
+      profesor, se cargarán las materias asignadas a él o ella.</p>
+    <p><strong>3. Campo "Materia":</strong> Después de seleccionar el profesor, aparecerán las materias asignadas a
+      dicho profesor. Elija la materia que desea inscribir para el estudiante.</p>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-2" style="display: none;">
+      <input type="text" id="idStudent" class="form-control" name="idStudent" required>
+    </div>
+    <div class="col-2">
+      <label for="identificationIns" class="form-label">Identificación</label>
+      <input type="text" id="identification" class="form-control" name="identificationIns" required
+        (change)="onIdentificationInsChange($event)">
+    </div>
+
+    <div class="col-2">
+      <label for="studentName" class="form-label">Nombre del Estudiante</label>
+      <input type="text" id="studentName" class="form-control" name="studentName" [readonly]="true" required>
+    </div>
+
+    <div class="col-3">
+      <label for="professor" class="form-label">Profesor</label>
+      <select id="professor" class="form-control" name="professor" required (change)="onProfessorChange($event)">
+        <option *ngFor="let profe of profes" [value]="profe.Value">{{ profe.Text}}</option>
+      </select>
+    </div>
+
+    <div class="col-3">
+      <label for="subjectIns" class="form-label">Materia</label>
+      <select id="subjectIns" class="form-control" name="subjectIns" required>
+        <option *ngFor="let sub of subOptions" [value]="sub.Value">{{ sub.Text}}</option>
+      </select>
+    </div>
+    <div class="col-2">
+      <button type="button" class="btn btn-success" style="margin-top: 30px;" (click)="CreateIns()">Inscribir</button>
+    </div>
+
+
+  </div>
+  <br>
+  <div *ngIf="messageIns" class="alert" [ngClass]="alertClassIns" role="alert">
+    {{ messageIns }}
+  </div>
+  <br>
+  <br>
+</div>
+
+<!-- Sección 3: Ver Clases -->
+<div class="container">
+  <h2>Ver Clases</h2>
+  <div class="instructions">
+
+    <p>1. <strong>Identificación</strong>: Ingresa el número de identificación o cédula del estudiante. Al ingresar este
+      dato, el sistema cargará automáticamente las materias a las cuales el estudiante está inscrito.</p>
+    <p>2. <strong>Materias Asignadas</strong>: Al llenar el campo de identificación, el campo de "Materias" se llenará
+      con las materias en las que el estudiante está inscrito. Esto permite ver qué materias ya tiene asignadas.</p>
+    <p>3. <strong>Búsqueda de Materias y Estudiantes</strong>: Una vez que se seleccione una materia, el sistema
+      mostrará dos listas:
+    <ul>
+      <li><strong>Materias del Estudiante</strong>: Esta lista mostrará todas las materias en las que el estudiante está
+        inscrito.</li>
+      <li><strong>Estudiantes Inscritos a la Materia</strong>: Esta lista mostrará todos los estudiantes que están
+        inscritos en la materia seleccionada, permitiendo ver la información de los estudiantes para cada materia
+        específica.</li>
+    </ul>
+
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-5">
+      <label for="identification" class="form-label">Número de Identificación</label>
+      <input type="text" id="identificationVer" class="form-control" name="identificationver" required
+        (change)="onIdentificationChange($event)">
+    </div>
+
+    <div class="col-5">
+      <label for="subject" class="form-label">Materia</label>
+      <select id="subject" class="form-control" name="subject" required>
+        <option *ngFor="let option of options" [value]="option.Value">{{ option.Text}}</option>
+      </select>
+    </div>
+    <div class="col-2">
+      <button type="submit" (click)="searchSubjectStudent()" class="btn btn-info"
+        style="margin-top: 30px;">Buscar</button>
+    </div>
+
+  </div>
+  <br>
+  <div *ngIf="message" class="alert" [ngClass]="alertClass" role="alert">
+    {{ message }}
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <!-- Tablas de Clases Inscritas -->
+    <div class="col-6">
+      <h2>Materias del estudiante</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Profesor</th>
+            <th>Nombre</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of professors">
+            <td>{{ p.ProfessorName}}</td>
+            <td>{{ p.Text }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tablas de Clases Inscritas -->
+    <div class="col-6">
+      <h2>Estudiantes Inscritos a la Materia</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre Estudiante</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+            <td>{{ student.Student }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+</div>

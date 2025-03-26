@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.SubjectController",
+    "Method": "addSubject",
+    "RelativePath": "api/interrapidisimo/addSubject/{idSubject}/{idStudent}/{idProfessor}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSubject",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idStudent",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idProfessor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.studentController",
+    "Method": "addNewStudent",
+    "RelativePath": "api/interrapidisimo/createStudent/{nameStudent}/{lastNameStudent}/{identification}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameStudent",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "lastNameStudent",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "identification",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.ProfessorController",
+    "Method": "getAllProfessor",
+    "RelativePath": "api/interrapidisimo/getAllProfessor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.ClassController",
+    "Method": "getStudent",
+    "RelativePath": "api/interrapidisimo/getClass/{identification}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identification",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.ClassController",
+    "Method": "getClassAll",
+    "RelativePath": "api/interrapidisimo/getClassAll/{idClass}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idClass",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.studentController",
+    "Method": "getStudent",
+    "RelativePath": "api/interrapidisimo/getStudent/{identification}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identification",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PruebaTecnicaIR.Controllers.SubjectController",
+    "Method": "getAllSubject",
+    "RelativePath": "api/interrapidisimo/getSubject/{idProfessor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProfessor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
